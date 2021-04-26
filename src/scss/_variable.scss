@@ -1,0 +1,38 @@
+// rajout de couleurs 
+$theme-colors: (
+    "clair":   #EAF0FF ,
+    "rose" : #F3826F, 
+    "roselight" :#f1a597,
+    "grisé" : #16161600,
+    "rouge" : #cc3746,
+    "bleuet": #F2F6FF
+
+);
+
+// rajout de size 
+$sizes: (
+    
+    20: 20%,
+    60: 60%,
+    65: 65%,
+    70: 70%,
+    80: 80%,
+    85: 85%,
+    90: 90%,
+    95: 95%,
+    125: 125%
+
+
+);
+// polices example 
+
+// $lora: 'Lora', serif;
+
+// rajout de espacement
+
+$spacers: (
+
+    6: 6*1em,
+    7: 7*1em
+
+);

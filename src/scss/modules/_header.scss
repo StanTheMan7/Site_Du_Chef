@@ -1,0 +1,35 @@
+header{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+        .maNavbar{
+            height: max-content;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            width: 90%;
+                .menu_left{
+                    display: flex;
+                    border-top: solid black 1px;
+                    border-bottom: 1px black solid;
+                    width: 40%;
+                                
+                }
+                .menu_right{
+                    width: 40%;
+                    border-top: solid black 1px;
+                    border-bottom: 1px black solid;
+                    width: 40%;
+                }
+                .menuNav{
+                            width: 100%;
+                            li{
+                                display: flex;
+                                justify-content: center;
+                                width: 25%;
+                            }
+                            
+                        }
+        }
+}
