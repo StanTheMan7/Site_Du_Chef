@@ -13,6 +13,8 @@ $theme-colors: (
 $sizes: (
     
     20: 20%,
+    30: 30%,
+    40: 40%,
     60: 60%,
     65: 65%,
     70: 70%,
@@ -26,8 +28,8 @@ $sizes: (
 );
 // polices example 
 
-// $lora: 'Lora', serif;
-
+$lora: 'Lora', serif;
+$courgette: 'Courgette', cursive;
 // rajout de espacement
 
 $spacers: (

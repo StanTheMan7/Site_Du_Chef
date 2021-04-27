@@ -5,6 +5,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8157,6 +8158,14 @@ button.bg-bleuet:focus {
   width: 20% !important;
 }
 
+.w-30 {
+  width: 30% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
 .w-60 {
   width: 60% !important;
 }
@@ -8211,6 +8220,14 @@ button.bg-bleuet:focus {
 
 .h-20 {
   height: 20% !important;
+}
+
+.h-30 {
+  height: 30% !important;
+}
+
+.h-40 {
+  height: 40% !important;
 }
 
 .h-60 {
@@ -17660,38 +17677,99 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-header {
-  height: 95vh;
-  width: 100%;
-  display: flex;
+body #header1 {
+  display: inline-block;
+  align-items: center;
   justify-content: center;
+  height: 20vh;
+  width: 100%;
+  position: relative;
 }
-header .maNavbar {
-  height: max-content;
+body #header1 .maNavbar {
   align-items: center;
   display: flex;
   justify-content: center;
-  width: 90%;
+  width: 100%;
+  position: fixed;
+  top: 25px;
+  z-index: 1;
 }
-header .maNavbar .menu_left {
+body #header1 .maNavbar .menu_left {
   display: flex;
-  border-top: solid black 1px;
-  border-bottom: 1px black solid;
+  border-top: solid #fafafa 1px;
+  border-bottom: 1px white solid;
   width: 40%;
 }
-header .maNavbar .menu_right {
+body #header1 .maNavbar .menu_right {
   width: 40%;
-  border-top: solid black 1px;
-  border-bottom: 1px black solid;
+  border-top: solid white 1px;
+  border-bottom: 1px white solid;
   width: 40%;
 }
-header .maNavbar .menuNav {
+body #header1 .maNavbar .menuNav {
   width: 100%;
 }
-header .maNavbar .menuNav li {
+body #header1 .maNavbar .menuNav li {
   display: flex;
   justify-content: center;
   width: 25%;
+}
+body #header1 .maNavbar .menuNav li a {
+  color: white;
+}
+body #header1 .maNavbar .menuNav a:hover {
+  background-color: #C12D3F;
+}
+body #header1 .principalC {
+  position: relative;
+}
+body #header1 .principalC .principalTB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  position: absolute;
+  top: 250px;
+  left: 25%;
+  z-index: 1;
+}
+body #header1 .principalC .principalTB .text {
+  width: 100%;
+  text-align: center;
+  font-family: "Courgette", cursive;
+}
+body #header1 .principalC .principalTB .text h1 {
+  color: white;
+}
+body #header1 .principalC .principalTB .text h1 .upercase {
+  text-transform: uppercase;
+  font-size: 80px;
+}
+body #header1 .principalC .principalTB .text h1 .fontsize {
+  font-size: 60px;
+}
+body #header1 .principalC .principalTB .buttons {
+  width: 50%;
+  justify-content: space-evenly;
+}
+body #header1 .principalC .principalTB .buttons button {
+  color: black;
+  background-color: white;
+  border: 0;
+  height: 2.5rem;
+  width: max-content;
+  border-radius: 25px;
+}
+body #header1 .principalC .principalTB .buttons button:hover {
+  color: white;
+  background-color: #C12D3F;
+}
+body #header1 .principalC #monCarousel {
+  position: absolute;
+}
+body #header1 .principalC #monCarousel .carousel-inner {
+  filter: brightness(30%);
 }
 
 /*# sourceMappingURL=app.css.map */
