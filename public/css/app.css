@@ -17677,11 +17677,14 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+body {
+  background-image: url(../images/main_bg.jpg);
+}
 body #header1 {
   display: inline-block;
   align-items: center;
   justify-content: center;
-  height: 20vh;
+  height: 56.5rem;
   width: 100%;
   position: relative;
 }
@@ -17690,8 +17693,8 @@ body #header1 .maNavbar {
   display: flex;
   justify-content: center;
   width: 100%;
-  position: fixed;
-  top: 25px;
+  position: sticky;
+  top: 0;
   z-index: 1;
 }
 body #header1 .maNavbar .menu_left {
@@ -17719,9 +17722,6 @@ body #header1 .maNavbar .menuNav li a {
 }
 body #header1 .maNavbar .menuNav a:hover {
   background-color: #C12D3F;
-}
-body #header1 .principalC {
-  position: relative;
 }
 body #header1 .principalC .principalTB {
   display: flex;
@@ -17767,9 +17767,68 @@ body #header1 .principalC .principalTB .buttons button:hover {
 }
 body #header1 .principalC #monCarousel {
   position: absolute;
+  top: 0;
 }
 body #header1 .principalC #monCarousel .carousel-inner {
   filter: brightness(30%);
+}
+
+.maSection {
+  width: 100%;
+}
+.maSection .cl1 {
+  position: relative;
+}
+.maSection .cl1 #upper_left {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  left: 0;
+  background-image: url(../images/box-left-top.png);
+  background-repeat: no-repeat;
+}
+.maSection .cl1 #upper_right {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  right: 0;
+  background-image: url(../images/box-right-top.png);
+  background-repeat: no-repeat;
+}
+.maSection .cl1 #lower_left {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(../images/box-bottom-left.png);
+  background-repeat: no-repeat;
+}
+.maSection .cl1 #lower_right {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(../images/box-bottom_right.png);
+  background-repeat: no-repeat;
+}
+.maSection .cl1 .titreH1 {
+  font-family: "Courgette", cursive;
+  color: black;
+}
+.maSection .cl1 .titreH1 .underH {
+  width: 50%;
+}
+.maSection .cl1 .titreH1 span {
+  color: red;
+}
+.maSection .cl1 .col6 {
+  height: 5rem;
+  width: 100%;
+}
+.maSection .cl1 .col6 div span {
+  height: 50%;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -1,10 +1,11 @@
 body{
+    background-image: url(../images/main_bg.jpg);
     
     #header1{
         display: inline-block;
         align-items: center; 
         justify-content: center;
-        height: 20vh;
+        height: 56.5rem;
         width: 100%;
         position: relative;
         
@@ -13,8 +14,8 @@ body{
                 display: flex;
                 justify-content: center;
                 width: 100%;
-                position: fixed;
-                top: 25px;
+                position: sticky;
+                top: 0;
                 z-index: 1;
                 
                     .menu_left{
@@ -32,6 +33,7 @@ body{
                     }
                         .menuNav{
                             width: 100%;
+                                
                                 li{
                                     display: flex;
                                     justify-content: center;
@@ -47,7 +49,6 @@ body{
                         }
             }
             .principalC{
-                position: relative;
 
                 .principalTB{
                     display: flex;
@@ -94,6 +95,7 @@ body{
                 }
                     #monCarousel{
                         position: absolute;
+                        top: 0;
                     .carousel-inner{
                         filter: brightness(30%);
                     }
