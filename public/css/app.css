@@ -18109,13 +18109,13 @@ body #header1 .principalC #monCarousel .carousel-inner {
 }
 .maSection .cl1 .child3 .fils2 .col-3 {
   padding-right: 0;
-}
-.maSection .cl1 .child3 .fils2 .col-3 .nav {
   border-right: gray 5px solid;
   border-bottom: gray 2px solid;
 }
 .maSection .cl1 .child3 .fils2 .col-3 .nav .nl1 div h1 {
   font-family: "Courgette", cursive;
+  width: 100%;
+  border-bottom: gray 2px solid;
 }
 .maSection .cl1 .child3 .fils2 .col-3 .nav .nl1 div .icons {
   color: gray;
@@ -18125,11 +18125,12 @@ body #header1 .principalC #monCarousel .carousel-inner {
 .maSection .cl1 .child3 .fils2 .col-3 .nav .nl1 div .icons:hover {
   color: brown;
 }
-.maSection .cl1 .child3 .fils2 .col-3 .nav .nav:hover {
+.maSection .cl1 .child3 .fils2 .col-3:hover {
   border-right: brown 5px solid;
 }
 .maSection .cl1 .child3 .fils2 .col-9 .tab-content .row .col6 {
   border-bottom: solid lightgray 2px;
+  padding-right: 5%;
 }
 .maSection .cl1 .child3 .fils2 .col-9 .tab-content .row .col6 img {
   border-radius: 50%;
@@ -18151,6 +18152,51 @@ body #header1 .principalC #monCarousel .carousel-inner {
   font-family: "Courgette", cursive;
 }
 .maSection .divChef .titreH1 span {
+  color: red;
+}
+.maSection .cl2 {
+  position: relative;
+  border: gray 2px solid;
+}
+.maSection .cl2 .child1 .upper_left {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  left: 0;
+  background-image: url(../images/box-left-top.png);
+  background-repeat: no-repeat;
+}
+.maSection .cl2 .child1 .upper_right {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  right: 0;
+  background-image: url(../images/box-right-top.png);
+  background-repeat: no-repeat;
+}
+.maSection .cl2 .child1 .lower_left {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(../images/box-bottom-left.png);
+  background-repeat: no-repeat;
+}
+.maSection .cl2 .child1 .lower_right {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(../images/box-bottom_right.png);
+  background-repeat: no-repeat;
+}
+.maSection .cl2 .child2 .titreH1 {
+  font-family: "Courgette", cursive;
+  color: black;
+}
+.maSection .cl2 .child2 .titreH1 span {
   color: red;
 }
 

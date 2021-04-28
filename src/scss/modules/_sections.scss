@@ -62,10 +62,13 @@
             }
         }
         .child3{
+
             .fils1{
+
                 .titreH1{
                     font-family: 'Courgette', cursive;
                     color: black;
+                    
                         span{
                             color: red;
                         }
@@ -77,15 +80,18 @@
 
                 .col-3{
                     padding-right: 0;
+                    border-right: gray 5px solid;
+                    border-bottom: gray 2px solid;
 
                     .nav{
-                        border-right: gray 5px solid;
-                        border-bottom: gray 2px solid;
+                        
                         .nl1{
                             
                             div{
                                 h1{
                                     font-family: 'Courgette', cursive;
+                                    width: 100%;
+                                    border-bottom: gray 2px solid;
                                 }
                                 .icons{
                                     color: gray;
@@ -97,11 +103,12 @@
                                 }
                             }
                         }
-                        .nav:hover{
-                            border-right: brown 5px solid;
-                        }
+                        
                     }
 
+                }
+                .col-3:hover{
+                    border-right: brown 5px solid;
                 }
                 .col-9{
 
@@ -111,7 +118,7 @@
 
                             .col6{
                                 border-bottom: solid lightgray 2px;
-
+                                padding-right: 5%;
                                 img{
                                     border-radius: 50%;
                                     border: 7px lightgray solid;
@@ -146,10 +153,61 @@
         }
         
     }
-
-
-            
-    
+    .cl2{
+        position: relative;
+        border: gray 2px solid;
+        .child1{
+            .upper_left {
+                width: 125px; height: 125px;
+                position: absolute;
+                left: 0;
+                background-image: url(../images/box-left-top.png);
+                background-repeat: no-repeat;
+                
+                }
+                
+            .upper_right {
+                width: 125px; height: 125px;
+                position: absolute;
+                right: 0;
+                background-image: url(../images/box-right-top.png);
+                background-repeat: no-repeat;
+                
+                
+                }
+                
+            .lower_left {
+                width: 125px; height: 125px;
+                position: absolute;
+                bottom:0 ;
+                left: 0;
+                background-image: url(../images/box-bottom-left.png);
+                background-repeat: no-repeat;
+                
+                }
+                
+            .lower_right {
+                width: 125px; height: 125px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                background-image: url(../images/box-bottom_right.png);
+                background-repeat: no-repeat;
+                }
+        
+        }
+        .child2{
+                    
+            .titreH1{
+                font-family: 'Courgette', cursive;
+                color:black;
+                
+                    span{
+                        color: red;
+                    }
+            }
+        }
+    }
 }
 .underH{
     margin-bottom:10px ;
