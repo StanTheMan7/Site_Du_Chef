@@ -104,57 +104,73 @@
             </div>
         </div>
     </header>
-    <section class="maSection d-flex  justify-content-sm-center align-items-center">
-
+    <section class="mb-5 mt-5 maSection d-flex flex-column justify-content-sm-center align-items-center">
+        <!--   class cl1 -->
         <div class="cl1 d-flex flex-column align-items-center bg-white w-80">
 
-            <div id="upper_left"></div>
-            <div id="upper_right"></div>
-            <div id="lower_left"></div>
-            <div id="lower_right"></div>
+            <div class="child1">
+                <div id="upper_left"></div>
+                <div id="upper_right"></div>
+                <div id="lower_left"></div>
+                <div id="lower_right"></div>
+            </div>
 
-            
-            <div class="d-flex flex-column justify-content-sm-center align-items-center">
+
+            <div class=" child2 d-flex flex-column justify-content-sm-center align-items-center">
+
                 <h1 class="titreH1 mt-5 mb-0 text-center"> <span>Our</span> Story</h1>
                 <img class="underH" src="./public/images/decoration_line.png" alt="">
                 <p class="w-50 mt-5 mb-5 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam
                     nihil
                     veniam facilis dolore vitae accusantium quasi harum, saepe voluptatum reprehenderit molestiae ullam,
                     quod voluptates doloremque iusto explicabo? Voluptatem, quos aut?</p>
-
             </div>
-            <!-- part menu -->
 
-            <div class="w-100 d-flex flex-column">
-                <h1 class="titreH1 d-flex mt-5 mb-0 text-center"> <span>Our</span> Menu List</h1>
-                <img class="underH justify-content-sm-center " src="./public/images/decoration_line.png" alt="">
-                <div class="row">
-                    <div class="col-3">
-                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+
+            <!-- part menu -->
+            
+            <div class="child3 w-100 d-flex flex-column">
+
+                <div class="fils1 d-flex flex-column align-items-center mb-5">
+                    <h1 class="titreH1  mt-5  mb-0 text-center"> <span>Our</span> Menu List</h1>
+                    <img class="underH justify-content-sm-center " src="./public/images/decoration_line.png" alt="">
+                </div>
+
+                <div class="fils2 row mb-7">
+                    <div class="col-3 w-30 d-flex justify-content-xl-center">
+                        <div class="nav flex-column nav-pills w-80" id="v-pills-tab" role="tablist"
                             aria-orientation="vertical">
 
-                            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                            <a class="nav-link pr-0 w-80 nl1 active bg-white" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
                                 role="tab" aria-controls="v-pills-home" aria-selected="true">
-                                <i class="fas fa-mug-hot"></i>
-                                <h1>Breakfast</h1>
+                                <div class="d-flex flex-column text-center">
+                                    <i class="icons fas fa-mug-hot"></i>
+                                    <h1 class="text-black mt-3">Breakfast</h1>
+                                </div>
                             </a>
 
-                            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                            <a class="nav-link pr-0 w-80 nl1 bg-white text-danger" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
                                 role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                                <i class="fas fa-hamburger"></i>
-                                <h1>Lunch</h1>
+                                <div class="d-flex flex-column text-center">
+                                    <i class="icons fas fa-hamburger"></i>
+                                    <h1 class="text-black mt-3">Lunch</h1>
+                                </div>
                             </a>
 
-                            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                            <a class="nav-link pr-0 w-80 nl1 bg-white text-danger" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
                                 role="tab" aria-controls="v-pills-messages" aria-selected="false">
-                                <i class="fas fa-bacon"></i>
-                                <h1>Snacks</h1>
+                                <div class="d-flex flex-column text-center">
+                                    <i class="icons fas fa-bacon"></i>
+                                    <h1 class="text-black mt-3">Snacks</h1>
+                                </div>
                             </a>
 
-                            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                            <a class="nav-link pr-0 w-80 nl1 bg-white text-danger" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
                                 role="tab" aria-controls="v-pills-settings" aria-selected="false">
-                                <i class="fas fa-mug-hot"></i>
-                                <h1>Dinner</h1>
+                                <div class="d-flex flex-column text-center">
+                                    <i class="icons fas fa-mug-hot"></i>
+                                    <h1 class="text-black mt-3">Dinner</h1>
+                                </div>
                             </a>
                         </div>
                     </div>
@@ -169,120 +185,120 @@
 
                                     <!-- col 1 -->
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_1.jpg" alt="">
+                                        <div class="d-flex justify-content-end align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
 
                                     <!-- col 2 -->
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_1.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
 
                                         <!-- col3  -->
 
                                     </div>
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_1.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
 
                                     <!-- col 4 -->
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_1.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
 
                                     <!-- col5 -->
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_1.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
                                     <!-- col 6 -->
 
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_1.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
                                     <!-- col 7 -->
 
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_1.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
 
                                     <!-- col 8 -->
 
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_1.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
                                     <!-- col 9-->
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_1.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
                                     <!--  col 10-->
 
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_1.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
 
@@ -299,120 +315,120 @@
 
                                     <!-- col 1 -->
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_2.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
 
                                     <!-- col 2 -->
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_2.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
 
                                         <!-- col3  -->
 
                                     </div>
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_2.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
 
                                     <!-- col 4 -->
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_2.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
 
                                     <!-- col5 -->
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_2.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
                                     <!-- col 6 -->
 
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_2.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
                                     <!-- col 7 -->
 
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_2.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
 
                                     <!-- col 8 -->
 
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_2.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
                                     <!-- col 9-->
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_2.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
                                     <!--  col 10-->
 
 
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_2.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
 
 
@@ -421,269 +437,281 @@
                             </div>
                             <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                                 aria-labelledby="v-pills-settings-tab">
-    
+
                                 <div class="row">
-    
-    
+
+
                                     <!-- col 1 -->
-    
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_3.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
-    
-    
+
+
                                     <!-- col 2 -->
-    
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_3.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
-    
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
+
                                         <!-- col3  -->
-    
+
                                     </div>
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_3.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
-    
-    
+
+
                                     <!-- col 4 -->
-    
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_3.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
-    
-    
+
+
                                     <!-- col5 -->
-    
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_3.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
-    
+
                                     <!-- col 6 -->
-    
-    
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+
+
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_3.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
-    
+
                                     <!-- col 7 -->
-    
-    
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+
+
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_3.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
-    
-    
+
+
                                     <!-- col 8 -->
-    
-    
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+
+
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_3.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
-    
+
                                     <!-- col 9-->
-    
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_3.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
-    
+
                                     <!--  col 10-->
-    
-    
-                                    <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
-                                            <h6>Lorem ipsum dolor sit amet.</h6>
+
+
+                                    <div class="col6 col-6 d-flex justify-content-start  align-items-center">
+                                        <img class=" w-30" style="height: 60%;" src="./public/images/menu_image_3.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
+                                            <h6 class="m-0">Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        <span>23$</span>
+                                        <span class="bg-silver text-danger  w-20 text-xl-center" style="height: 30px;"> $23 </span>
                                     </div>
-    
-    
-    
+
+
+
                                 </div>
-    
+
                             </div>
                             <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
                                 aria-labelledby="v-pills-settings-tab">
-    
+
                                 <div class="row">
-    
-    
+
+
                                     <!-- col 1 -->
-    
+
                                     <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
+                                        <img class=" w-30 " style="height: 100%;" src="./public/images/menu_image_4.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
                                             <h6>Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
                                         <span>23$</span>
                                     </div>
-    
-    
+
+
                                     <!-- col 2 -->
-    
+
                                     <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
+                                        <img class=" w-30 " style="height: 100%;" src="./public/images/menu_image_4.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
                                             <h6>Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
                                         <span>23$</span>
-    
+
                                         <!-- col3  -->
-    
+
                                     </div>
                                     <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
+                                        <img class=" w-30 " style="height: 100%;" src="./public/images/menu_image_4.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
                                             <h6>Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
                                         <span>23$</span>
                                     </div>
-    
-    
+
+
                                     <!-- col 4 -->
-    
+
                                     <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
+                                        <img class=" w-30 " style="height: 100%;" src="./public/images/menu_image_4.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
                                             <h6>Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
                                         <span>23$</span>
                                     </div>
-    
-    
+
+
                                     <!-- col5 -->
-    
+
                                     <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
+                                        <img class=" w-30 " style="height: 100%;" src="./public/images/menu_image_4.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
                                             <h6>Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
                                         <span>23$</span>
                                     </div>
-    
+
                                     <!-- col 6 -->
-    
-    
+
+
                                     <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
+                                        <img class=" w-30 " style="height: 100%;" src="./public/images/menu_image_4.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
                                             <h6>Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
                                         <span>23$</span>
                                     </div>
-    
+
                                     <!-- col 7 -->
-    
-    
+
+
                                     <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
+                                        <img class=" w-30 " style="height: 100%;" src="./public/images/menu_image_4.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
                                             <h6>Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
                                         <span>23$</span>
                                     </div>
-    
-    
+
+
                                     <!-- col 8 -->
-    
-    
+
+
                                     <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
+                                        <img class=" w-30 " style="height: 100%;" src="./public/images/menu_image_4.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
                                             <h6>Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
                                         <span>23$</span>
                                     </div>
-    
+
                                     <!-- col 9-->
-    
+
                                     <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
+                                        <img class=" w-30 " style="height: 100%;" src="./public/images/menu_image_4.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
                                             <h6>Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
                                         <span>23$</span>
                                     </div>
-    
+
                                     <!--  col 10-->
-    
-    
+
+
                                     <div class="col6 col-6 d-flex">
-                                        <img src="./public/images/menu_image_1.jpg" alt="">
-                                        <div>
+                                        <img class=" w-30 " style="height: 100%;" src="./public/images/menu_image_4.jpg" alt="">
+                                        <div class="d-flex justify-content-center align-items-center flex-column text-xl-center">
                                             <h6>Lorem ipsum dolor sit amet.</h6>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
                                         <span>23$</span>
                                     </div>
-                        </div>
-
-
-
+                                </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="divChef mt-4 mb-4">
+            <div class="mt-5 mb-5">
+                <h1 class="titreH1 mt-5 mb-0 text-center text-white"> <span>MEET</span> Our Chef</h1>>
+                <img class="underH" src="./public/images/decoration_line.png" alt="">
+            </div>
+            <div class="imgChef d-flex justify-content-xl-between w-70 ">
+                <img class=" border-bottom" src="./public/images/chef1.png" alt="">
+                <img class=" border-bottom" src="./public/images/chef2.png" alt="">
+                <img class=" border-bottom" src="./public/images/chef3.png" alt="">
+                <img class=" border-bottom" src="./public/images/chef4.png" alt="">
+            </div>
+            <div class="d-flex justify-content-xl-between w-70 mb-4">
+                <p class="text-white">Lorem, ipsum dolor.</p>
+                <p class="text-white">Lorem, ipsum dolor.</p>
+                <p class="text-white">Lorem, ipsum dolor.</p>
+                <p class="text-white">Lorem, ipsum dolor.</p>
+            </div>
         </div>
-
 
     </section>
 

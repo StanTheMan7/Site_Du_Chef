@@ -1,3 +1,9 @@
+.col6{
+    padding: 0;
+    #v-pills-tab{
+        
+    }
+}
 .maSection{
 
     width: 100%;
@@ -5,66 +11,146 @@
     .cl1{
         
         position: relative;
+            
+        .child1{
             #upper_left {
-            width: 125px; height: 125px;
-            position: absolute;
-            left: 0;
-            background-image: url(../images/box-left-top.png);
-            background-repeat: no-repeat;
-            
-            }
-            
-            #upper_right {
-            width: 125px; height: 125px;
-            position: absolute;
-            right: 0;
-            background-image: url(../images/box-right-top.png);
-            background-repeat: no-repeat;
-            
-            
-            }
-            
-            #lower_left {
-            width: 125px; height: 125px;
-            position: absolute;
-            bottom:0 ;
-            left: 0;
-            background-image: url(../images/box-bottom-left.png);
-            background-repeat: no-repeat;
-            
-            }
-            
-            #lower_right {
-            width: 125px; height: 125px;
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            background-image: url(../images/box-bottom_right.png);
-            background-repeat: no-repeat;
-            }
+                width: 125px; height: 125px;
+                position: absolute;
+                left: 0;
+                background-image: url(../images/box-left-top.png);
+                background-repeat: no-repeat;
+                
+                }
+                
+                #upper_right {
+                width: 125px; height: 125px;
+                position: absolute;
+                right: 0;
+                background-image: url(../images/box-right-top.png);
+                background-repeat: no-repeat;
+                
+                
+                }
+                
+                #lower_left {
+                width: 125px; height: 125px;
+                position: absolute;
+                bottom:0 ;
+                left: 0;
+                background-image: url(../images/box-bottom-left.png);
+                background-repeat: no-repeat;
+                
+                }
+                
+                #lower_right {
+                width: 125px; height: 125px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                background-image: url(../images/box-bottom_right.png);
+                background-repeat: no-repeat;
+                }
+        }
+        .child2{
+            border: gray 1px solid;
             .titreH1{
                 font-family: 'Courgette', cursive;
-                color: black;
-                
-                    .underH{
-
-                        width: 50%;
-                    }
-                
+                color:black;
                     span{
-                        color:red;
+                        color: red;
                     }
-                    
             }
-            .col6{
-                height: 5rem;
-                width:100%;
-                    div{
-
+        }
+        .child3{
+            .fils1{
+                .titreH1{
+                    font-family: 'Courgette', cursive;
+                    color: black;
                         span{
-                            height: 50%;
+                            color: red;
+                        }
+                }
+            }
+            
+            .fils2{
+                
+
+                .col-3{
+                    padding-right: 0;
+
+                    .nav{
+                        border-right: gray 5px solid;
+                        border-bottom: gray 2px solid;
+                        .nl1{
+                            
+                            div{
+                                h1{
+                                    font-family: 'Courgette', cursive;
+                                }
+                                .icons{
+                                    color: gray;
+                                    width: 100%;
+                                    font-size: 300%!important; 
+                                }
+                                .icons:hover{
+                                    color: brown;
+                                }
+                            }
+                        }
+                        .nav:hover{
+                            border-right: brown 5px solid;
                         }
                     }
+
+                }
+                .col-9{
+
+                    .tab-content{
+
+                        .row{
+
+                            .col6{
+                                border-bottom: solid lightgray 2px;
+
+                                img{
+                                    border-radius: 50%;
+                                    border: 7px lightgray solid;
+                                    
+                                }
+                                span{
+                                    font-size: 90%;
+                                    font-weight:bold;
+                                }
+                                
+                            }
+                        }
+                    }
+                }
             }
+        }
     }
+    .divChef{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        width: 100%;
+
+            .titreH1{
+                font-family: 'Courgette', cursive;
+                
+                    span{
+                        color: red;
+                    }
+        }
+        
+    }
+
+
+            
+    
+}
+.underH{
+    margin-bottom:10px ;
 }
