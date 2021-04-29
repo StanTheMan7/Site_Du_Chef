@@ -6,10 +6,10 @@
 }
 .maSection{
 
-    width: 100%;
+    width: 100%; 
     
     .cl1{
-        
+        border: gray 1px solid;
         position: relative;
             
         .child1{
@@ -52,7 +52,7 @@
                 }
         }
         .child2{
-            border: gray 1px solid;
+            
             .titreH1{
                 font-family: 'Courgette', cursive;
                 color:black;
@@ -211,8 +211,7 @@
             border-radius: 10px;
             background-image: url(../images/book_table_bg.jpg);
             background-size: cover;
-        
-                    
+            
         }
         
     }
