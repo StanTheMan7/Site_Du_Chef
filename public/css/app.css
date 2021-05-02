@@ -18224,10 +18224,12 @@ body #header1 .principalC #monCarousel .carousel-inner {
   width: 100%;
 }
 .maSection .cl2 .child3 form .form-row input {
+  width: 90%;
   border-radius: 15px;
   border: lightgray 2px solid;
 }
 .maSection .cl2 .child3 form .form-row select {
+  width: 90%;
   border: solid lightgray 2px;
   border-radius: 15px;
 }
@@ -18249,6 +18251,28 @@ body #header1 .principalC #monCarousel .carousel-inner {
 }
 .maSection .cl2 .child4 .titreH1 span {
   color: red;
+}
+.maSection .cl2 .child5 {
+  width: 70%;
+}
+.maSection .cl2 .child5 .card {
+  border: 0;
+}
+.maSection .cl2 .child5 .card img {
+  border-radius: 1rem;
+  border: 7px lightgray solid;
+}
+.maSection .cl2 .child5 .card .bottomImg {
+  position: absolute;
+  bottom: 40%;
+}
+.maSection .knowMore {
+  height: 2.5rem;
+  width: 15%;
+  border: 0;
+  background-color: #C12D3F;
+  color: white;
+  border-radius: 25px;
 }
 
 .underH {

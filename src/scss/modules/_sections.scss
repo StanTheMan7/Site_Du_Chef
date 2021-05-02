@@ -226,12 +226,15 @@
                     align-items: center;
                     width: 80%;
                         .form-row{
+
                             width: 100%;
                             input{
+                                width: 90%;
                                 border-radius: 15px;
                                 border: lightgray 2px solid;
                             }
                             select{
+                                width: 90%;
                                 border: solid lightgray 2px;
                                 border-radius: 15px;
                             }
@@ -260,8 +263,36 @@
                     }
             }
         }
+        .child5{
+            width: 70%;
+
+            .card{
+                border: 0;
+                
+                img{
+                    
+                    border-radius: 1rem ;
+                    border: 7px lightgray solid;
+                }
+                .bottomImg{
+                    position: absolute;
+                    bottom: 40%;
+                    
+                }
+            }
+        }
+        
         
     }
+    .knowMore{
+        height: 2.5rem;
+        width: 15%;
+        border: 0;
+        background-color:#C12D3F ;
+        color: white;
+        border-radius: 25px;
+    }
+    
 }
 .underH{
     margin-bottom:10px ;
