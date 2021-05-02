@@ -1,8 +1,5 @@
 .col6{
     padding: 0;
-    #v-pills-tab{
-        
-    }
 }
 .maSection{
 
@@ -19,6 +16,7 @@
                 left: 0;
                 background-image: url(../images/box-left-top.png);
                 background-repeat: no-repeat;
+                background-size: cover;
                 
                 }
                 
@@ -28,6 +26,7 @@
                 right: 0;
                 background-image: url(../images/box-right-top.png);
                 background-repeat: no-repeat;
+                background-size: cover;
                 
                 
                 }
@@ -39,6 +38,7 @@
                 left: 0;
                 background-image: url(../images/box-bottom-left.png);
                 background-repeat: no-repeat;
+                background-size: cover;
                 
                 }
                 
@@ -49,6 +49,7 @@
                 right: 0;
                 background-image: url(../images/box-bottom_right.png);
                 background-repeat: no-repeat;
+                background-size: cover;
                 }
         }
         .child2{
@@ -153,6 +154,7 @@
         }
         
     }
+    // section page 2 after 4 chefs
     .cl2{
         position: relative;
         border: gray 2px solid;
@@ -161,7 +163,7 @@
                 width: 125px; height: 125px;
                 position: absolute;
                 left: 0;
-                background-image: url(../images/box-left-top.png);
+                background-image: url(../images/box-left-top-grey.png);
                 background-repeat: no-repeat;
                 
                 }
@@ -169,9 +171,11 @@
             .upper_right {
                 width: 125px; height: 125px;
                 position: absolute;
+                top: 0;
                 right: 0;
-                background-image: url(../images/box-right-top.png);
+                background-image: url(../images/box-right-top-grey.png);
                 background-repeat: no-repeat;
+                background-size: cover;
                 
                 
                 }
@@ -181,8 +185,9 @@
                 position: absolute;
                 bottom:0 ;
                 left: 0;
-                background-image: url(../images/box-bottom-left.png);
+                background-image: url(../images/box-bottom-left-grey.png);
                 background-repeat: no-repeat;
+                background-size: cover;
                 
                 }
                 
@@ -191,8 +196,9 @@
                 position: absolute;
                 bottom: 0;
                 right: 0;
-                background-image: url(../images/box-bottom_right.png);
+                background-image: url(../images/box-bottom_right-grey.png);
                 background-repeat: no-repeat;
+                background-size: cover;
                 }
         
         }
@@ -208,10 +214,51 @@
             }
         }
         .child3{
-            border-radius: 10px;
             background-image: url(../images/book_table_bg.jpg);
+            background-repeat: no-repeat;
             background-size: cover;
-            
+            height: 110vh;
+            width: 60%;
+            border-radius: 1rem ;
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 80%;
+                        .form-row{
+                            width: 100%;
+                            input{
+                                border-radius: 15px;
+                                border: lightgray 2px solid;
+                            }
+                            select{
+                                border: solid lightgray 2px;
+                                border-radius: 15px;
+                            }
+                        }
+                    button{
+                        height: 2.5rem;
+                        width: 25%;
+                        border: 0;
+                        background-color: white;
+                        color: black;
+                        border-radius: 25px;
+                    }
+                    button:hover{ 
+                        color: white;
+                        background-color:#C12D3F ;
+                    }
+                }
+        }
+        .child4{
+
+            .titreH1{
+                font-family: 'Courgette', cursive;
+                color:black;
+                    span{
+                        color: red;
+                    }
+            }
         }
         
     }

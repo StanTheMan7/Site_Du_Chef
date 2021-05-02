@@ -18050,10 +18050,12 @@ body #header1 .principalC #monCarousel .carousel-inner {
 .col6 {
   padding: 0;
 }
+
 .maSection {
   width: 100%;
 }
 .maSection .cl1 {
+  border: gray 1px solid;
   position: relative;
 }
 .maSection .cl1 .child1 #upper_left {
@@ -18063,6 +18065,7 @@ body #header1 .principalC #monCarousel .carousel-inner {
   left: 0;
   background-image: url(../images/box-left-top.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .maSection .cl1 .child1 #upper_right {
   width: 125px;
@@ -18071,6 +18074,7 @@ body #header1 .principalC #monCarousel .carousel-inner {
   right: 0;
   background-image: url(../images/box-right-top.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .maSection .cl1 .child1 #lower_left {
   width: 125px;
@@ -18080,6 +18084,7 @@ body #header1 .principalC #monCarousel .carousel-inner {
   left: 0;
   background-image: url(../images/box-bottom-left.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .maSection .cl1 .child1 #lower_right {
   width: 125px;
@@ -18089,9 +18094,7 @@ body #header1 .principalC #monCarousel .carousel-inner {
   right: 0;
   background-image: url(../images/box-bottom_right.png);
   background-repeat: no-repeat;
-}
-.maSection .cl1 .child2 {
-  border: gray 1px solid;
+  background-size: cover;
 }
 .maSection .cl1 .child2 .titreH1 {
   font-family: "Courgette", cursive;
@@ -18163,16 +18166,18 @@ body #header1 .principalC #monCarousel .carousel-inner {
   height: 125px;
   position: absolute;
   left: 0;
-  background-image: url(../images/box-left-top.png);
+  background-image: url(../images/box-left-top-grey.png);
   background-repeat: no-repeat;
 }
 .maSection .cl2 .child1 .upper_right {
   width: 125px;
   height: 125px;
   position: absolute;
+  top: 0;
   right: 0;
-  background-image: url(../images/box-right-top.png);
+  background-image: url(../images/box-right-top-grey.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .maSection .cl2 .child1 .lower_left {
   width: 125px;
@@ -18180,8 +18185,9 @@ body #header1 .principalC #monCarousel .carousel-inner {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-image: url(../images/box-bottom-left.png);
+  background-image: url(../images/box-bottom-left-grey.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .maSection .cl2 .child1 .lower_right {
   width: 125px;
@@ -18189,8 +18195,9 @@ body #header1 .principalC #monCarousel .carousel-inner {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-image: url(../images/box-bottom_right.png);
+  background-image: url(../images/box-bottom_right-grey.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .maSection .cl2 .child2 .titreH1 {
   font-family: "Courgette", cursive;
@@ -18200,9 +18207,48 @@ body #header1 .principalC #monCarousel .carousel-inner {
   color: red;
 }
 .maSection .cl2 .child3 {
-  border-radius: 10px;
   background-image: url(../images/book_table_bg.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
+  height: 110vh;
+  width: 60%;
+  border-radius: 1rem;
+}
+.maSection .cl2 .child3 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.maSection .cl2 .child3 form .form-row {
+  width: 100%;
+}
+.maSection .cl2 .child3 form .form-row input {
+  border-radius: 15px;
+  border: lightgray 2px solid;
+}
+.maSection .cl2 .child3 form .form-row select {
+  border: solid lightgray 2px;
+  border-radius: 15px;
+}
+.maSection .cl2 .child3 form button {
+  height: 2.5rem;
+  width: 25%;
+  border: 0;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+}
+.maSection .cl2 .child3 form button:hover {
+  color: white;
+  background-color: #C12D3F;
+}
+.maSection .cl2 .child4 .titreH1 {
+  font-family: "Courgette", cursive;
+  color: black;
+}
+.maSection .cl2 .child4 .titreH1 span {
+  color: red;
 }
 
 .underH {

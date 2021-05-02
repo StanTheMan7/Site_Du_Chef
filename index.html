@@ -825,9 +825,9 @@
                 <p class="text-white">Lorem, ipsum dolor.</p>
             </div>
         </div>
-
-        <div class="cl2 d-flex flex-column align-items-center bg-white w-80">
-
+        <!-- section Book your Table -->
+        <div class="cl2 d-flex flex-column align-items-center justify-content-center bg-white w-80">
+            <!-- the corners black and white -->
             <div class="child1">
                 <div class="upper_left"></div>
                 <div class="upper_right"></div>
@@ -837,52 +837,81 @@
 
 
             <div class=" child2 d-flex flex-column justify-content-sm-center align-items-center">
-
                 <h1 class="titreH1 mt-5 mb-0 text-center"> <span>Book</span> Your Table</h1>
                 <img class="underH" src="./public/images/decoration_line.png" alt="">
             </div>
-            <div class="child3 w-65 d-flex flex-lg-wrap">
+            <div class="child3 mt-5 mb-5 d-flex justify-content-center align-items-center">
 
-                <p class="text-center text-white mt-5 mb-5">For any query call us at: +91-1234567890</p>
-                <form class="container" action="">
+                <form>
+                    <div class="paragraph text-white mb-5">
+                        <p>For any query please call us at:+913554855862</p>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
 
-                    <div class="row">
-                        <input type="text" placeholder="Enter Full Name">
-                        <input type="number" placeholder="Phone Number">
-                        <input type="text" placeholder="Date">
-                        <div class="dropdown">
-                            <button class="dropbtn"> Occasion <i class="fas fa-chevron-down"></i></button>
-                            <div class="dropdown-content">
-                                <a href="#">hrazeraz</a>
-                                <a href="#">zaerazraz</a>
-                                <a href="#">razerazer</a>
-                            </div>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Full Name">
+                        </div>
+                        <div class="form-group col-md-6">
+
+                            <input type="password" class="form-control" id="enter-id" placeholder="Enter ID">
                         </div>
                     </div>
-                    <div>
-                        <input type="number" placeholder="Enter id">
-                        <div class="dropdown">
-                            <button class="dropbtn">Persons<i class="fas fa-chevron-down"></i></button>
-                            <div class="dropdown-content">
-                                <a href="#">1</a>
-                                <a href="#">2</a>
-                                <a href="#">3</a>
-                            </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+
+                            <input type="text" class="form-control" id="enter-phone" placeholder="Phone Number">
                         </div>
-                        <input type="number" placeholder="Time">
-                        <div class="dropdown">
-                            <button class="dropbtn"> Cuisine <i class="fas fa-chevron-down"></i></button>
-                            <div class="dropdown-content">
-                                <a href="#">azeea</a>
-                                <a href="#">eazea</a>
-                                <a href="#">eaeae</a>
-                            </div>
+                        <div class="form-group col-md-6">
+                            
+                            <select id="No-of-persons" class="form-control">
+                                <option selected>No Of Persones</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
                         </div>
                     </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Date">
+                        </div>
+                        <div class="form-group col-md-6">
+
+                            <input type="password" class="form-control" id="enter-id" placeholder="Time">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <select id="Cousine" class="form-control">
+                                <option selected>Ocasion</option>
+                                <option>Birthday</option>
+                                <option>Meeting</option>
+                                <option>Buisness talk</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+
+                            <select id="Cousine" class="form-control">
+                                <option selected>Cousine</option>
+                                <option>Belgian</option>
+                                <option>Thai</option>
+                                <option>Russian</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- button -->
+                    <button type="submit" class="btn mt-5">BOOK NOW</button>
                 </form>
-            </div>
 
-        </div>
+
+            </div>
+            <div class="child4">
+                <h1 class="titreH1 mt-5 mb-0 text-center"> <span>Our</span> Blog</h1>
+                <img class="underH" src="./public/images/decoration_line.png" alt="">
+            </div>
 
     </section>
 
