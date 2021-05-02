@@ -275,9 +275,13 @@
                     border: 7px lightgray solid;
                 }
                 .bottomImg{
+                    display: flex;
                     position: absolute;
-                    bottom: 40%;
-                    
+                    bottom: 35%;
+                    height: 2.5rem;
+                    border-radius: 0.5rem;
+                    align-items: center;
+                    justify-content: space-evenly;                
                 }
             }
         }
@@ -293,6 +297,40 @@
         border-radius: 25px;
     }
     
+    
+}
+.Contact{
+    background-image: url(../images/testimonials_background.jpg);
+    background-repeat: no-repeat;
+
+    .client-testimonials{
+        
+        width: 100%;
+            .titreH1{
+            font-family: 'Courgette', cursive;
+            color:white;
+                span{
+                    color: red;
+                }
+            }
+    }
+    .info{
+
+        .part1{
+            
+            img{
+                height: 8rem;
+                width: 8rem;
+                border: lightgray 0.2rem solid;
+                border-radius: 50%;
+            }
+            .text-behind{
+                border:lightgray 1px solid;
+                border-radius: 5px;
+            }
+
+        }
+    }
 }
 .underH{
     margin-bottom:10px ;

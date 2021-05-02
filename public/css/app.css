@@ -18263,8 +18263,13 @@ body #header1 .principalC #monCarousel .carousel-inner {
   border: 7px lightgray solid;
 }
 .maSection .cl2 .child5 .card .bottomImg {
+  display: flex;
   position: absolute;
-  bottom: 40%;
+  bottom: 35%;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .maSection .knowMore {
   height: 2.5rem;
@@ -18273,6 +18278,31 @@ body #header1 .principalC #monCarousel .carousel-inner {
   background-color: #C12D3F;
   color: white;
   border-radius: 25px;
+}
+
+.Contact {
+  background-image: url(../images/testimonials_background.jpg);
+  background-repeat: no-repeat;
+}
+.Contact .client-testimonials {
+  width: 100%;
+}
+.Contact .client-testimonials .titreH1 {
+  font-family: "Courgette", cursive;
+  color: white;
+}
+.Contact .client-testimonials .titreH1 span {
+  color: red;
+}
+.Contact .info .part1 img {
+  height: 8rem;
+  width: 8rem;
+  border: lightgray 0.2rem solid;
+  border-radius: 50%;
+}
+.Contact .info .part1 .text-behind {
+  border: lightgray 1px solid;
+  border-radius: 5px;
 }
 
 .underH {
