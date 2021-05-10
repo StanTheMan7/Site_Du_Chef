@@ -876,11 +876,11 @@
                     <div class="form-row d-flex justify-content-lg-between w-90">
                         <div class="form-group col-md-6">
 
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Date">
+                            <input type="email" class="form-control" placeholder="Date">
                         </div>
                         <div class="form-group col-md-6">
 
-                            <input type="password" class="form-control" id="enter-id" placeholder="Time">
+                            <input type="password" class="form-control"  placeholder="Time">
                         </div>
                     </div>
                     <div class="form-row d-flex justify-content-lg-between w-90">
@@ -894,7 +894,7 @@
                         </div>
                         <div class="form-group col-md-6">
 
-                            <select id="Cousine" class="form-control">
+                            <select class="form-control">
                                 <option selected>Cousine</option>
                                 <option>Belgian</option>
                                 <option>Thai</option>
@@ -945,38 +945,77 @@
             <button type="submit" class="btn knowMore mb-lg-5">KNOW MORE</button>
 
     </section>
-    <section class="Contact">
+    <section class="Contact w-100 ">
 
-        <div class="client-testimonials d-flex flex-column align-items-center">
+        <div class="client-testimonials d-flex flex-column align-items-center w-100">
             <h1 class="titreH1 mt-5 mb-0 text-center"> <span>Client</span> Testimonials</h1>
-            <img class="underH" src="./public/images/decoration_line.png" alt="">
+            <img class="underH mb-6" src="./public/images/decoration_line.png" alt="">
         </div>
 
-        <div class="info d-flex">
-            <div class="part1 d-flex">
-                <img src="./public/images/testimonial1.jpg" alt="">
-
-                <div class="text-behind">
-                    <h6>Lorem ipsup</h6>
-                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio consequatur nostrum quibusdam ea
-                        voluptates dolorem autem aliquam placeat rerum?
-                        .</p>
+            <div class="info d-flex justify-content-sm-center  align-items-center ">
+                <div class="part1 text-white m-3 d-flex  w-30">
+                    <img src="./public/images/testimonial1.jpg" alt="">
+    
+                    <div class="text-behind p-3 ml-4">
+                        <h6>Lorem ipsup</h6>
+                        <h6 class="text-danger">Manager</h6>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio consequatur nostrum quibusdam ea
+                            voluptates dolorem autem aliquam placeat rerum?
+                            .</p>
+                    </div>
+                </div>
+    
+                <div class="part1 text-white m-3 d-flex w-30 flex-row-reverse">
+                    <img src="./public/images/testimonial1.jpg" alt="">
+    
+                    <div class="text-behind p-3 mr-4">
+                        <h6>Lorem ipsup</h6>
+                        <h6 class="text-danger">Manager</h6>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio consequatur nostrum quibusdam ea
+                            voluptates dolorem autem aliquam placeat rerum?
+                            .</p>
+                    </div>
+                </div>
+    
+            </div>
+            
+        </section>
+        <section class="ourContact d-flex flex-column align-items-center ">
+            <div class="title">
+                <h1 class="titreH1 mt-5 mb-0 text-center"> <span>Our</span> Contact</h1>
+                <img class="underH mb-6" src="./public/images/decoration_line.png" alt="">
+            </div>
+            <div class="background d-flex flex-column align-items-center p-3">
+                <div class="d-flex flex-column align-items-center w-100 text-center border-bottom mb-2">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ab debit ipsa.</p>
+                </div>
+                <div class="d-flex flex-column align-items-center w-100 text-center border-bottom mb-2">
+                    <i class="fas fa-phone"></i>
+                    <p>+917456466687</p>
+                </div>
+                <div class="d-flex flex-column align-items-center w-100 text-center ">
+                    <i class="fas fa-envelope"></i>
+                    <p>abc@abc.com</p>
                 </div>
             </div>
-
-            <div class="part1 d-flex">
-                <img src="./public/images/testimonial1.jpg" alt="">
-
-                <div class="text-behind">
-                    <h6>Lorem ipsup</h6>
-                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio consequatur nostrum quibusdam ea
-                        voluptates dolorem autem aliquam placeat rerum?
-                        .</p>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row row-cols-3">
+                    <div class="col-md-4 text-white"> 
+                        <h2>ABOUT US</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut vero repellat illum modi enim quos provident! Possimus quam ipsa, eligendi aperiam, non maiores repellat ullam cumque, corporis accusantium saepe nostrum?</p>
+                    </div>
+                    <div class="col-md-4 text-white"> 
+                        <h2>INSTAGRAM</h2>
+                    </div>
+                    <div class="col-md-4 text-white"> 
+                        <h2>POPULAR TAGS</h2>
+                    </div>
                 </div>
             </div>
-
-        </div>
-    </section>
+        </footer>
 
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

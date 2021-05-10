@@ -58,6 +58,7 @@
                 font-family: 'Courgette', cursive;
                 color:black;
                     span{
+                        font-size: 3.5rem;
                         color: red;
                     }
             }
@@ -71,6 +72,7 @@
                     color: black;
                     
                         span{
+                            font-size: 3.5rem;
                             color: red;
                         }
                 }
@@ -149,6 +151,7 @@
                 font-family: 'Courgette', cursive;
                 
                     span{
+                        font-size: 3.5rem;
                         color: red;
                     }
         }
@@ -209,6 +212,7 @@
                 color:black;
 
                     span{
+                        font-size: 3.5rem;
                         color: red;
                     }
             }
@@ -259,6 +263,7 @@
                 font-family: 'Courgette', cursive;
                 color:black;
                     span{
+                        font-size: 3.5rem;
                         color: red;
                     }
             }
@@ -302,6 +307,9 @@
 .Contact{
     background-image: url(../images/testimonials_background.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    
+
 
     .client-testimonials{
         
@@ -310,14 +318,15 @@
             font-family: 'Courgette', cursive;
             color:white;
                 span{
+                    font-size: 3.5rem;
                     color: red;
                 }
             }
     }
     .info{
-
+        
         .part1{
-            
+            height: 10rem;
             img{
                 height: 8rem;
                 width: 8rem;
@@ -327,11 +336,48 @@
             .text-behind{
                 border:lightgray 1px solid;
                 border-radius: 5px;
+                p{
+                    font-size: small;
+                }
             }
 
         }
     }
 }
+.ourContact{
+
+    .title{
+
+        .titreH1{
+            font-family: 'Courgette', cursive;
+            color:rgb(0, 0, 0);
+                span{
+                    font-size: 3.5rem;
+                    color: red;
+                }
+        }
+    }
+    .background{
+        background-color:#C12D3F ;
+        width: 25%;
+        border-radius: 5%;
+        div{
+            
+            i{
+                font-size: 3rem;
+                color: white;
+                margin-bottom: 2%;
+            }
+            p{
+                font-weight:normal;
+                font-size: 0.7em;
+                margin-bottom: 3%;
+                color: white;
+            }
+        }
+    }
+}
+
 .underH{
     margin-bottom:10px ;
 }

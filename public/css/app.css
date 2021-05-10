@@ -17958,7 +17958,7 @@ body #header1 {
   display: inline-block;
   align-items: center;
   justify-content: center;
-  height: 56.5rem;
+  height: 65rem;
   width: 100%;
   position: relative;
 }
@@ -18101,6 +18101,7 @@ body #header1 .principalC #monCarousel .carousel-inner {
   color: black;
 }
 .maSection .cl1 .child2 .titreH1 span {
+  font-size: 3.5rem;
   color: red;
 }
 .maSection .cl1 .child3 .fils1 .titreH1 {
@@ -18108,6 +18109,7 @@ body #header1 .principalC #monCarousel .carousel-inner {
   color: black;
 }
 .maSection .cl1 .child3 .fils1 .titreH1 span {
+  font-size: 3.5rem;
   color: red;
 }
 .maSection .cl1 .child3 .fils2 .col-3 {
@@ -18155,6 +18157,7 @@ body #header1 .principalC #monCarousel .carousel-inner {
   font-family: "Courgette", cursive;
 }
 .maSection .divChef .titreH1 span {
+  font-size: 3.5rem;
   color: red;
 }
 .maSection .cl2 {
@@ -18204,6 +18207,7 @@ body #header1 .principalC #monCarousel .carousel-inner {
   color: black;
 }
 .maSection .cl2 .child2 .titreH1 span {
+  font-size: 3.5rem;
   color: red;
 }
 .maSection .cl2 .child3 {
@@ -18250,6 +18254,7 @@ body #header1 .principalC #monCarousel .carousel-inner {
   color: black;
 }
 .maSection .cl2 .child4 .titreH1 span {
+  font-size: 3.5rem;
   color: red;
 }
 .maSection .cl2 .child5 {
@@ -18283,6 +18288,7 @@ body #header1 .principalC #monCarousel .carousel-inner {
 .Contact {
   background-image: url(../images/testimonials_background.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .Contact .client-testimonials {
   width: 100%;
@@ -18292,7 +18298,11 @@ body #header1 .principalC #monCarousel .carousel-inner {
   color: white;
 }
 .Contact .client-testimonials .titreH1 span {
+  font-size: 3.5rem;
   color: red;
+}
+.Contact .info .part1 {
+  height: 10rem;
 }
 .Contact .info .part1 img {
   height: 8rem;
@@ -18304,9 +18314,41 @@ body #header1 .principalC #monCarousel .carousel-inner {
   border: lightgray 1px solid;
   border-radius: 5px;
 }
+.Contact .info .part1 .text-behind p {
+  font-size: small;
+}
+
+.ourContact .title .titreH1 {
+  font-family: "Courgette", cursive;
+  color: black;
+}
+.ourContact .title .titreH1 span {
+  font-size: 3.5rem;
+  color: red;
+}
+.ourContact .background {
+  background-color: #C12D3F;
+  width: 25%;
+  border-radius: 5%;
+}
+.ourContact .background div i {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 2%;
+}
+.ourContact .background div p {
+  font-weight: normal;
+  font-size: 0.7em;
+  margin-bottom: 3%;
+  color: white;
+}
 
 .underH {
   margin-bottom: 10px;
+}
+
+footer {
+  background-image: url(../images/footer_background.jpg);
 }
 
 /*# sourceMappingURL=app.css.map */
